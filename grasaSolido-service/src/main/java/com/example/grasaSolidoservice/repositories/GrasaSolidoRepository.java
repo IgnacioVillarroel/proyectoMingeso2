@@ -1,6 +1,6 @@
-package com.tingeso.grasaSolidoservice.repositories;
+package com.example.grasaSolidoservice.repositories;
 
-import com.tingeso.grasaSolidoservice.entities.GrasaSolidoEntity;
+import com.example.grasaSolidoservice.entities.GrasaSolidoEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

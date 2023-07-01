@@ -1,7 +1,7 @@
-package com.tingeso.acopioLecheservice.controllers;
+package com.example.acopioLecheservice.controllers;
 
-import com.tingeso.acopioLecheservice.entities.AcopioLecheEntity;
-import com.tingeso.acopioLecheservice.services.AcopioLecheService;
+import com.example.acopioLecheservice.entities.AcopioLecheEntity;
+import com.example.acopioLecheservice.services.AcopioLecheService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

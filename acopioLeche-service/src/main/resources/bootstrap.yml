@@ -1,0 +1,31 @@
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: https://${EUREKA:localhost}:8761/eureka/
+spring:
+  devtools:
+    restart:
+      aditional-paths: src/main/java
+  application:
+    name: acopioLeche-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/acopios?autorReconnect=true&allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    password: admin
+  jpa:
+    show-sql: true
+    hibernate:
+      dialect: MySQL8Dialect
+      ddl-auto: create
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

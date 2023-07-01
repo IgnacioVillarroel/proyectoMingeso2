@@ -1,7 +1,7 @@
-package com.tingeso.acopioLecheservice.services;
+package com.example.acopioLecheservice.services;
 
-import com.tingeso.acopioLecheservice.entities.AcopioLecheEntity;
-import com.tingeso.acopioLecheservice.repositories.AcopioLecheRepository;
+import com.example.acopioLecheservice.entities.AcopioLecheEntity;
+import com.example.acopioLecheservice.repositories.AcopioLecheRepository;
 import lombok.Generated;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

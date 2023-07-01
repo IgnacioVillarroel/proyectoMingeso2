@@ -1,4 +1,4 @@
-package com.tingeso.grasaSolidoservice.entities;
+package com.example.grasaSolidoservice.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

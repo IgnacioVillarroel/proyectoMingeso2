@@ -1,4 +1,4 @@
-package com.tingeso.acopioLecheservice.entities;
+package com.example.acopioLecheservice.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

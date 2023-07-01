@@ -1,4 +1,4 @@
-package com.tingeso.proveedorservice.entities;
+package com.example.proveedorservice.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

@@ -1,6 +1,6 @@
-package com.tingeso.acopioLecheservice.repositories;
+package com.example.acopioLecheservice.repositories;
 
-import com.tingeso.acopioLecheservice.entities.AcopioLecheEntity;
+import com.example.acopioLecheservice.entities.AcopioLecheEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

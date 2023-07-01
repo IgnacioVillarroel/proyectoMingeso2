@@ -1,7 +1,7 @@
-package com.tingeso.proveedorservice.controllers;
+package com.example.proveedorservice.controllers;
 
-import com.tingeso.proveedorservice.entities.ProveedorEntity;
-import com.tingeso.proveedorservice.services.ProveedorService;
+import com.example.proveedorservice.entities.ProveedorEntity;
+import com.example.proveedorservice.services.ProveedorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

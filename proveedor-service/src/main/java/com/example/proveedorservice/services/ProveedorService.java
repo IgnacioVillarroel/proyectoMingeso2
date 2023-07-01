@@ -1,7 +1,7 @@
-package com.tingeso.proveedorservice.services;
+package com.example.proveedorservice.services;
 
-import com.tingeso.proveedorservice.entities.ProveedorEntity;
-import com.tingeso.proveedorservice.repositories.ProveedorRepository;
+import com.example.proveedorservice.entities.ProveedorEntity;
+import com.example.proveedorservice.repositories.ProveedorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

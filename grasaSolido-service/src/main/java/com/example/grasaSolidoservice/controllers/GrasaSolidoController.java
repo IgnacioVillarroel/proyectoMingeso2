@@ -1,7 +1,7 @@
-package com.tingeso.grasaSolidoservice.controllers;
+package com.example.grasaSolidoservice.controllers;
 
-import com.tingeso.grasaSolidoservice.entities.GrasaSolidoEntity;
-import com.tingeso.grasaSolidoservice.services.GrasaSolidoService;
+import com.example.grasaSolidoservice.entities.GrasaSolidoEntity;
+import com.example.grasaSolidoservice.services.GrasaSolidoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
