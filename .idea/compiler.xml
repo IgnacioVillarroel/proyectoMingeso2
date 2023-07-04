@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pago-service" />
+        <module name="eureka-service" />
+        <module name="acopioLeche-service" />
+        <module name="config-service" />
+        <module name="gateway-service" />
+        <module name="grasaSolido-service" />
+        <module name="proveedor-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="acopioLeche-service" target="17" />
+      <module name="config-service" target="17" />
+      <module name="eureka-service" target="17" />
+      <module name="gateway-service" target="17" />
+      <module name="grasaSolido-service" target="17" />
+      <module name="pago-service" target="17" />
+      <module name="proveedor-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="acopioLeche-service" options="-parameters" />
+      <module name="config-service" options="-parameters" />
+      <module name="eureka-service" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
+      <module name="grasaSolido-service" options="-parameters" />
+      <module name="pago-service" options="-parameters" />
+      <module name="proveedor-service" options="-parameters" />
+    </option>
+  </component>
+</project>
