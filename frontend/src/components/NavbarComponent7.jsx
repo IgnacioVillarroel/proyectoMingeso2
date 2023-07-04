@@ -23,10 +23,10 @@ export default NavbarComponent;
 
 const NavStyle = styled.nav`
 header{
-    background-color: indigo;
+    background-color: black;
 }
 .header{
-    background-color: indigo;
+    background-color: black;
     display: flex;
     justify-content: flex-start;
     align-items: center;
